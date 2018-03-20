@@ -1,0 +1,312 @@
+@media print {
+.header{
+	display: none !important;
+}
+
+.main {
+	padding:  80px 0px !important;
+}
+
+.offer{
+	width: 300px !important;
+}
+
+.pic > img{
+	width: 330px !important;
+	height: 300px !important;
+}
+
+.emeil {
+	display: none !important;
+}
+
+.footer{
+	padding-top: 30px !important;
+	text-align: center !important;
+}
+
+.leng {
+	display: none !important;
+}
+}
+
+body{
+padding: 0px 150px;
+background-image: url("fon.jpg");
+}
+
+ul li{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+.header{
+	background: rgba(203,249,221,0.9);
+}
+
+.about {
+	background: rgba(243,231,183,0.9);
+	color: black;
+	padding: 0px 50px;
+	margin: auto;
+	text-align: center;
+}
+
+.emeil {
+	background: rgba(203,249,221,0.9);
+	padding: 0px 200px;
+	text-align: center;
+}
+
+
+#logo{
+	margin-left: 50px;
+	width: 90px;
+	height: 90px;
+}
+
+.menu__item {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.menu__item>a {
+	size: 11px;
+	font-weight: 700;
+	color: black;
+}
+.main {
+	background: rgba(203,249,221,0.9);
+	color: black;
+	padding-bottom: 10px;
+}
+
+.pic > img{
+	margin-right: 0px;
+	margin-bottom: 50px;
+	width: 550px;
+	height: 440px;
+}
+
+.offer{
+	width: 300px;
+	margin:0px 50px ;
+	text-align: center;
+}
+
+.offer__intro{
+	font-size: 16px;
+}
+.offer__text{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.form {
+	padding-bottom: 20px; 
+}
+
+.form__text{
+	width: 400px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.form__btn{
+	width: 150px;
+	height: 30px;
+	background: #D54C25;
+	border: black solid 2px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	cursor: pointer;
+}
+
+.footer{
+	background: black;
+	color: white;
+	font-size: 10px;
+}
+
+.flag{
+	width: 30px;
+	height: 20px;
+}
+
+.leng{
+	padding-right: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+
+	body{
+		width: 100%;
+padding: 0px;
+padding-left: 15px;
+}
+
+.menu__item {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.offer{
+	width: 350px;
+	padding: 0px;
+	margin:0px;
+}
+
+.pic > img{
+	width: 450px;
+	height: 300px;
+}
+
+.emeil {
+	padding: 0px;
+}
+/*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
+ */
+}
+ 
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+ 
+
+	body{
+		width: 100%;
+padding: 0px 20px;
+padding-left: 15px;
+}
+
+.menu__item {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.offer{
+	width: 410px;
+	padding: 0px;
+	margin:0px;
+}
+
+.pic > img{
+	width: 450px;
+	height: 300px;
+}
+
+.emeil {
+	padding: 0px;
+}
+/*Планшеты в режиме portrait.*/
+ 
+}
+ 
+@media only screen and (max-width: 992px) {
+ 
+	body{
+		width: 100%;
+padding: 0px 70px;
+padding-left: 15px;
+}
+
+.menu__item {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.offer{
+	width: 410px;
+	padding: 0px;
+	margin:0px;
+}
+
+.pic > img{
+	width: 450px;
+	height: 300px;
+}
+
+.emeil {
+	padding: 0px;
+}
+/*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+ 
+}
+ 
+@media only screen and (max-width: 1382px) {
+ 
+ body{
+	width: 100%;
+	padding: 0px 100px;
+	padding-left: 15px;
+}
+
+.menu__item {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.offer{
+	width: 410px;
+	padding: 0px;
+	margin:0px;
+}
+
+.pic > img{
+	width: 450px;
+	height: 300px;
+}
+
+.emeil {
+	padding: 0px;
+}
+
+.title_main{
+	margin-left: 150px
+}
+/*Десктоп с большими разрешениями, телевизоры.*/
+ 
+}
+
+@media only screen and (min-width: 1382px) {
+ 
+ body{
+	width: 100%;
+	padding: 0px 100px;
+	padding-left: 15px;
+}
+
+.menu__item {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.offer{
+	width: 410px;
+	padding: 0px;
+	margin:0px;
+}
+
+.pic > img{
+	width: 450px;
+	height: 300px;
+}
+
+.emeil {
+	padding: 0px;
+}
+
+.title_main{
+	margin-left: 200px
+}
+/*Десктоп с большими разрешениями, телевизоры.*/
+ 
+}
